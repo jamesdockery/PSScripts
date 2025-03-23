@@ -3,6 +3,5 @@ New-MgUser -AccountEnabled:$true `
             -MailNickname "asmith" `
             -UserPrincipalName "amith@MrJamesDockeryCo.onmicrosoft.com" `
             -PasswordProfile @{
-                Password = "Str0ngPassword!"
                 ForceChangePasswordNextSignIn = $true
             }
